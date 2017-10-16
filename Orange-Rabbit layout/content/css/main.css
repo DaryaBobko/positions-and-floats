@@ -22,10 +22,23 @@ body {
     font-family: "Roboto";
     padding: 0;
     margin: 0;
+    padding-top: 129px;
+    padding-bottom: 70px;
 }
 body > section, body nav{
     width:1200px;
     margin:auto;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.nav-section {
+    z-index: 1000;
+    top: 0;
+    background-color: white;
+    position: fixed;
 }
 
 .main-nav > div:first-child {
@@ -97,12 +110,9 @@ nav {
             font-size: 4.5rem;
             display: block;
         }
-            .menu > li a:hover,
-            .menu > li a:focus {
-                text-decoration: none;
-                color: rgba(65, 60, 59, 1);
+            .menu > li a:hover {
+                color: #fcba50 !important;
             }
-
 .line {
     height: 4px;
     background-color: #fcba50;
@@ -344,4 +354,9 @@ footer{
 footer span{
     line-height: 70px;
     font-size: 3.3rem;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
 }
