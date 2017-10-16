@@ -76,12 +76,6 @@ body > section, body nav{
     width: 70%;
 }
 
-/* 
-.container {
-    margin: 0 5% 0 5%;
-    width:1200px;
-} */
-
 .menu-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -215,18 +209,9 @@ article > a {
 
 }
 
-/* .underlining {
-    background-color: #ff9c00;
-    height: 3px;
-    width: 15%;
-} */
 
 .team {
     min-height: 545px;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;*/
     width: 30%;
     display: inline-block;
 }
@@ -273,7 +258,6 @@ article > a {
 
     .squawk-background {
         background-image: url(../img/squawk.jpg);
-        /* background-position-y: -100px; */
     }
 
 .img-teammate {
